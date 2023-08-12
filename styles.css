@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+html,body{
+    background-color: black;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 10%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    align-items: center;
+    font-size: 1.5rem;
+    list-style-type: None;
+}
+
+header ul li{
+    color: white;
+}
+
+header button{
+    width: 10%;
+    height: 5vh;
+    font-size: 1.5rem;
+    border-radius: 1%;
+    border: 0;
+}
