@@ -7,21 +7,27 @@ html,body{
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    height: 300vh;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2vh 10%;
+    padding: 4vh 10%;
+}
+
+header img{
+    height: 12vh;
 }
 
 header ul{
     display: flex;
     justify-content: space-between;
-    gap: 20%;
+    gap: 40%;
     align-items: center;
     font-size: 1.5rem;
+    font-family: Poppins, sans-serif;
     list-style-type: None;
 }
 
@@ -30,9 +36,61 @@ header ul li{
 }
 
 header button{
-    width: 10%;
+    width: 20%;
     height: 5vh;
     font-size: 1.5rem;
     border-radius: 1%;
     border: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider{
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 0.15%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0.35;
+}
+
+.homeButtonDiv{
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0vh;
+}
+
+.homeButtonDiv .roundButton{
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5vh;
+    background-color: white;
+    border: none;
+}
+
+.homeButtonDiv img{
+    position: absolute;
+    z-index: 1001;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 2vh;
 }
