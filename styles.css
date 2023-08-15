@@ -31,7 +31,14 @@ h2{
     padding: 0;
 }
 
-p{
+h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+p, a{
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     color: white;
@@ -165,4 +172,43 @@ header button{
 
 .heroLeft p, .heroRight p{
     padding-top: 2vh;
+}
+
+/* work section */
+
+.work{
+    height: 90vh;
+    width: 100%;
+    background-color: #121212;
+}
+
+.work h2{
+    padding: 8vh 10%;
+}
+
+.workContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.workProject{
+    height: 50vh;
+    width: 25%;
+}
+
+.workImage{
+    height: 30vh;
+    width: 100%;
+    border-radius: 2vh;
+    background-color: white;
+}
+
+.work h3, .work p{
+    text-align: center;
+}
+
+.work a{
+    display: block;
+    text-align: center;
 }
