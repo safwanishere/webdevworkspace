@@ -212,3 +212,36 @@ header button{
     display: block;
     text-align: center;
 }
+
+.projectButton{
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    height: 7vh;
+    width: 20%;
+    border-radius: 3.5vh;
+    border: none;
+    display: block;
+    margin: -3.5vh auto 0 auto;
+}
+
+.about h2{
+    padding: 8vh 10%;
+}
+
+.about h3{
+    text-align: center;
+}
+
+.about p{
+    text-align: center;
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 2vh auto 0 auto;
+}
+
+.about img{
+    display: block;
+    margin: 0 auto;
+}
