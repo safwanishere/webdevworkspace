@@ -69,13 +69,28 @@ header ul li{
     color: white;
 }
 
-header button{
+.hireButton{
     width: 20%;
     height: 5vh;
     font-size: 1.5rem;
     border-radius: 1%;
-    border: 0;
+    border-width: 0;
     font-family: Poppins, sans-serif;
+}
+
+.hireButton:hover{
+    border-width: 2px;
+    border-color: white;
+    border-radius: 2%;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.hireButton:active{
+    border-color: aqua;
 }
 
 .links{
